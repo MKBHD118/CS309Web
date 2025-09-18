@@ -16,7 +16,7 @@ const teamMembers = [
     name: "KV Modak",
     designation: "Lead Data Engineer",
     image1: "/m.jpg", // Relative path to public directory
-    image2: "/rajini.webp", // Relative path to public directory
+    image2: "/mr1.jpeg", // Relative path to public directory
     socials: {
       linkedin: "https://www.linkedin.com/in/kv-modak-45aaa12aa/",
       github: "https://github.com/mod756",
