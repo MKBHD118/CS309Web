@@ -25,7 +25,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleDarkMode }) => {
             <span className={`font-medium hover:text-yellow-500 ${
               isDarkMode ? "text-gray-300" : "text-gray-600"
             } transition-colors duration-300`}>
-              Fantastic 4
+              AbNormal Distributions
             </span>
           </Link>
         </div>
@@ -39,6 +39,22 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleDarkMode }) => {
             } hover:underline transition-colors duration-300`}
           >
             Home
+          </Link>
+          <Link
+            href="/results"
+            className={`font-medium hover:text-yellow-500 ${
+              isDarkMode ? "text-gray-300" : "text-gray-600"
+            } hover:underline transition-colors duration-300`}
+          >
+            Results
+          </Link>
+          <Link
+            href="/predict"
+            className={`font-medium hover:text-yellow-500 ${
+              isDarkMode ? "text-gray-300" : "text-gray-600"
+            } hover:underline transition-colors duration-300`}
+          >
+            Predict
           </Link>
           <Link
             href="/about"
